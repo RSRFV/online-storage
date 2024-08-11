@@ -1,9 +1,10 @@
 package router
 
 import (
+	"github.com/RSRFV/online-storage/middleware"
 	"github.com/gin-gonic/gin"
-	"online-storage/controller"
-	"online-storage/middleware"
+	//"online-storage/controller"
+	//"online-storage/middleware"
 )
 
 func SetupRoute() *gin.Engine {

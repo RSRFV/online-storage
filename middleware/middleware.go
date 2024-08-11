@@ -2,13 +2,15 @@ package middleware
 
 import (
 	"fmt"
+	"github.com/RSRFV/online-storage/lib"
+	"github.com/RSRFV/online-storage/model"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"online-storage/lib"
-	"online-storage/model"
+	//"online-storage/lib"
+	//"online-storage/model"
 )
 
-//检查是否登录中间件
+// 检查是否登录中间件
 func CheckLogin(c *gin.Context) {
 	token, err := c.Cookie("Token")
 	if err != nil {

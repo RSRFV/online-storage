@@ -1,10 +1,13 @@
 package main
 
 import (
+	"github.com/RSRFV/online-storage/lib"
+	"github.com/RSRFV/online-storage/model/mysql"
+	"github.com/RSRFV/online-storage/router"
 	"log"
-	"online-storage/lib"
-	"online-storage/model/mysql"
-	"online-storage/router"
+	//"online-storage/lib"
+	//"online-storage/model/mysql"
+	//"online-storage/router"
 )
 
 func main() {

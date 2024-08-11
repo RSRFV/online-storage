@@ -1,8 +1,8 @@
 package model
 
 import (
-	"online-storage/model/mysql"
-	"online-storage/util"
+	"github.com/RSRFV/online-storage/model/mysql"
+	"github.com/RSRFV/online-storage/util"
 	"path"
 	"strconv"
 	"strings"

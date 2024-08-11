@@ -2,10 +2,11 @@ package mysql
 
 import (
 	"fmt"
+	"github.com/RSRFV/online-storage/lib"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"log"
-	"online-storage/lib"
+	//"online-storage/lib"
 )
 
 var DB *gorm.DB
