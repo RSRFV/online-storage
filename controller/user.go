@@ -3,13 +3,13 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/RSRFV/online-storage/lib"
+	"github.com/RSRFV/online-storage/model"
+	"github.com/RSRFV/online-storage/util"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"online-storage/lib"
-	"online-storage/model"
-	"online-storage/util"
 	"time"
 )
 

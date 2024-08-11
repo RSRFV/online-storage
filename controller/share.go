@@ -1,11 +1,11 @@
 package controller
 
 import (
+	"github.com/RSRFV/online-storage/lib"
+	"github.com/RSRFV/online-storage/model"
 	"github.com/gin-gonic/gin"
 	"github.com/lifei6671/gocaptcha"
 	"net/http"
-	"online-storage/lib"
-	"online-storage/model"
 	"strconv"
 	"strings"
 )

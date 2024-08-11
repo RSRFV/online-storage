@@ -2,16 +2,16 @@ package controller
 
 import (
 	"fmt"
+	"github.com/RSRFV/online-storage/lib"
+	"github.com/RSRFV/online-storage/model"
+	"github.com/RSRFV/online-storage/util"
 	"github.com/gin-gonic/gin"
 	"io"
 	"net/http"
-	"online-storage/lib"
-	"online-storage/model"
-	"online-storage/util"
 	"os"
 )
 
-//上传文件页面
+// 上传文件页面
 func Upload(c *gin.Context) {
 	openId, _ := c.Get("openId")
 	fId := c.DefaultQuery("fId", "0")
@@ -40,7 +40,7 @@ func Upload(c *gin.Context) {
 	})
 }
 
-//处理上传文件
+// 处理上传文件
 func HandlerUpload(c *gin.Context) {
 	openId, _ := c.Get("openId")
 	//获取用户信息

@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	//"online-storage/model/mysql"
+	"github.com/RSRFV/online-storage/model/mysql"
 	"strconv"
 	"time"
 )
