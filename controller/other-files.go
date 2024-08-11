@@ -1,9 +1,9 @@
 package controller
 
 import (
+	"github.com/RSRFV/online-storage/model"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"online-storage/model"
 )
 
 func OtherFiles(c *gin.Context) {
