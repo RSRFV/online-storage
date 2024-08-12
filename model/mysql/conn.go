@@ -13,6 +13,10 @@ var DB *gorm.DB
 
 func InitDB(conf lib.ServerConfig) {
 	var err error
+	fmt.Printf("conf.User:", conf.User, "\n")
+	fmt.Printf("conf.Password:", conf.Password, "\n")
+	fmt.Printf("conf.Host:", conf.Host, "\n")
+	fmt.Printf("conf.DbName:", conf.DbName, "\n")
 	dbParams := fmt.Sprintf("%v:%v@tcp(%v)/%v?charset=utf8&parseTime=True&loc=Local",
 		conf.User,
 		conf.Password,

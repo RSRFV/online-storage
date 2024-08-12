@@ -1,7 +1,6 @@
 package model
 
 import (
-	//"online-storage/model/mysql"
 	"github.com/RSRFV/online-storage/model/mysql"
 )
 
